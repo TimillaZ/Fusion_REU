@@ -9,6 +9,8 @@
 import json
 from fusion_engine import TierResult, fuse        # Approach 1: template
 from llm_fuse import llm_fuse                       # Approach 2: LLM synthesis
+from graph_fuse import graph_fuse        # Approach 3: graph fusion
+import time 
 
 
 # The approaches we want to compare, by name.
@@ -16,6 +18,7 @@ from llm_fuse import llm_fuse                       # Approach 2: LLM synthesis
 APPROACHES = {
     "template": fuse,
     "llm": llm_fuse,
+    "graph": graph_fuse,
 }
 
 
@@ -42,6 +45,7 @@ def score_approach(name, fuse_function):
     print("#" * 64)
     print(f"APPROACH: {name}")
     for case in cases:
+        start_time = time.time()
         edge = make_tier(case["edge_answer"], case["edge_failed"])
         fog  = make_tier(case["fog_answer"],  case["fog_failed"])
 
@@ -52,6 +56,7 @@ def score_approach(name, fuse_function):
 
         mark = "PASS" if passed else "FAIL"
         print(f"  [{mark}] case {case['id']}: {fused}")
+        print(time.time() - start_time)
 
     score = 100 * correct / len(cases)
     print(f"  --> {name}: {correct}/{len(cases)} ({score:.0f}%)")

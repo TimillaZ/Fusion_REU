@@ -41,4 +41,11 @@ compare(
     mode="sequential",
 )
 
+compare(
+    "4) Edge failed (abstention)",
+    edge=TierResult(failed=True),
+    fog=TierResult(text="40 meters next to the security checkpoint"),
+    mode="sequential",
+)
+
 print("=" * 64)
