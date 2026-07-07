@@ -7,7 +7,12 @@
     "fog_answer": "it's in Terminal 2, turn left at security, 400 meters ahead",
     "edge_failed": false,
     "fog_failed": false,
-    "must_include": ["B12", "Terminal 2", "400"]
+    "must_include": [
+      "B12",
+      "Terminal 2",
+      "400",
+      "Terminal"
+    ]
   },
   {
     "id": 2,
@@ -17,7 +22,12 @@
     "fog_answer": "a charging port is 20 meters to your left",
     "edge_failed": false,
     "fog_failed": false,
-    "must_include": ["backpack", "charging", "20"]
+    "must_include": [
+      "bag",
+      "backpack",
+      "20",
+      "charging port"
+    ]
   },
   {
     "id": 3,
@@ -27,7 +37,11 @@
     "fog_answer": "the nearest restroom is 50 meters ahead on the right",
     "edge_failed": false,
     "fog_failed": false,
-    "must_include": ["counter 3", "restroom", "50"]
+    "must_include": [
+      "counter 3",
+      "50",
+      "restroom"
+    ]
   },
   {
     "id": 4,
@@ -37,7 +51,12 @@
     "fog_answer": "Gate A4 is in Terminal 1, straight ahead 200 meters",
     "edge_failed": false,
     "fog_failed": false,
-    "must_include": ["A4", "Terminal 1", "200"]
+    "must_include": [
+      "A4",
+      "Terminal 1",
+      "200",
+      "Terminal"
+    ]
   },
   {
     "id": 5,
@@ -47,7 +66,9 @@
     "fog_answer": null,
     "edge_failed": false,
     "fog_failed": true,
-    "must_include": ["C9"]
+    "must_include": [
+      "C9"
+    ]
   },
   {
     "id": 6,
@@ -57,7 +78,10 @@
     "fog_answer": "the elevator is 10 meters to your right",
     "edge_failed": true,
     "fog_failed": false,
-    "must_include": ["elevator", "10"]
+    "must_include": [
+      "10",
+      "elevator"
+    ]
   },
   {
     "id": 7,
@@ -77,6 +101,10 @@
     "fog_answer": "the Delta check-in desk is at row 4, to your left",
     "edge_failed": false,
     "fog_failed": false,
-    "must_include": ["Delta", "row 4"]
+    "must_include": [
+      "airline",
+      "Delta",
+      "row 4"
+    ]
   }
 ]
