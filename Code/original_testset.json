@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "query": "Where is my gate?",
+    "mode": "sequential",
+    "edge_answer": "Your gate is B12",
+    "fog_answer": "it's in Terminal 2, turn left at security, 400 meters ahead",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": ["B12", "Terminal 2", "400", "Terminal"]
+  },
+  {
+    "id": 2,
+    "query": "Is my bag near a charging port?",
+    "mode": "parallel",
+    "edge_answer": "Your bag is a black backpack",
+    "fog_answer": "a charging port is 20 meters to your left",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": ["bag", "backpack", "20", "charging port"]
+  },
+  {
+    "id": 3,
+    "query": "Where is my coat and the nearest restroom?",
+    "mode": "parallel",
+    "edge_answer": "Your coat is at coat check counter 3",
+    "fog_answer": "the nearest restroom is 50 meters ahead on the right",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": ["counter 3", "50", "restroom"]
+  },
+  {
+    "id": 4,
+    "query": "Where is my terminal?",
+    "mode": "sequential",
+    "edge_answer": "Your gate is A4",
+    "fog_answer": "Gate A4 is in Terminal 1, straight ahead 200 meters",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": ["A4", "Terminal 1", "200", "Terminal"]
+  },
+  {
+    "id": 5,
+    "query": "Where is my gate?",
+    "mode": "sequential",
+    "edge_answer": "Your gate is C9",
+    "fog_answer": null,
+    "edge_failed": false,
+    "fog_failed": true,
+    "must_include": ["C9"]
+  },
+  {
+    "id": 6,
+    "query": "Where is the nearest elevator?",
+    "mode": "parallel",
+    "edge_answer": null,
+    "fog_answer": "the elevator is 10 meters to your right",
+    "edge_failed": true,
+    "fog_failed": false,
+    "must_include": ["10", "elevator"]
+  },
+  {
+    "id": 7,
+    "query": "Where is my gate?",
+    "mode": "sequential",
+    "edge_answer": null,
+    "fog_answer": null,
+    "edge_failed": true,
+    "fog_failed": true,
+    "must_include": []
+  },
+  {
+    "id": 8,
+    "query": "Where do I check in?",
+    "mode": "sequential",
+    "edge_answer": "Your airline is Delta",
+    "fog_answer": "the Delta check-in desk is at row 4, to your left",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": ["airline", "Delta", "row 4"]
+  }
+]

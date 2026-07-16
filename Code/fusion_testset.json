@@ -106,5 +106,723 @@
       "Delta",
       "row 4"
     ]
+  },
+  {
+    "id": 9,
+    "query": "Where is my gate?",
+    "mode": "sequential",
+    "edge_answer": "Your gate is D7",
+    "fog_answer": "it's in Terminal 3, up the escalator, 250 meters ahead",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "D7",
+      "Terminal 3",
+      "250",
+      "Terminal"
+    ]
+  },
+  {
+    "id": 10,
+    "query": "Where is my gate?",
+    "mode": "sequential",
+    "edge_answer": "Your gate is E15",
+    "fog_answer": "it's past the duty-free shops, 300 meters straight ahead",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "E15",
+      "300"
+    ]
+  },
+  {
+    "id": 11,
+    "query": "Where does my flight board?",
+    "mode": "sequential",
+    "edge_answer": "Your flight boards at gate F2",
+    "fog_answer": "it's to the right after passport control, 120 meters ahead",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "F2",
+      "120"
+    ]
+  },
+  {
+    "id": 12,
+    "query": "Where is my connecting flight?",
+    "mode": "sequential",
+    "edge_answer": "Your connection departs from gate A9",
+    "fog_answer": "it's one level down, 500 meters through the corridor",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "A9",
+      "500"
+    ]
+  },
+  {
+    "id": 13,
+    "query": "Where do I pick up my bag?",
+    "mode": "sequential",
+    "edge_answer": "Your bag arrives at carousel 5",
+    "fog_answer": "it's in the arrivals hall, 60 meters past customs",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "carousel 5",
+      "60"
+    ]
+  },
+  {
+    "id": 14,
+    "query": "Where is my baggage claim?",
+    "mode": "sequential",
+    "edge_answer": "Your baggage claim is carousel 2",
+    "fog_answer": "it's downstairs to the left, 90 meters ahead",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "carousel 2",
+      "90"
+    ]
+  },
+  {
+    "id": 15,
+    "query": "Where does my shuttle leave from?",
+    "mode": "sequential",
+    "edge_answer": "Your shuttle is the Hilton shuttle",
+    "fog_answer": "it departs from door 6, 80 meters to the right",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "shuttle",
+      "Hilton",
+      "door 6",
+      "80"
+    ]
+  },
+  {
+    "id": 16,
+    "query": "Where is my train?",
+    "mode": "sequential",
+    "edge_answer": "Your train is the RE7 to the city center",
+    "fog_answer": "it leaves from platform 2, one level below arrivals",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "RE7",
+      "platform 2"
+    ]
+  },
+  {
+    "id": 17,
+    "query": "Where is my lounge?",
+    "mode": "sequential",
+    "edge_answer": "Your lounge is the Delta Sky Club",
+    "fog_answer": "it's on level 3, 150 meters past security",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "lounge",
+      "Club",
+      "Delta",
+      "Sky",
+      "level 3",
+      "150"
+    ]
+  },
+  {
+    "id": 18,
+    "query": "Where do I drop my bag?",
+    "mode": "sequential",
+    "edge_answer": "Your bag drop is at counter 12",
+    "fog_answer": "it's in the departures hall, 40 meters to the left",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "counter 12",
+      "40"
+    ]
+  },
+  {
+    "id": 19,
+    "query": "Where is my check-in?",
+    "mode": "sequential",
+    "edge_answer": "Your airline is United",
+    "fog_answer": "the United check-in desks are at row 8, straight ahead",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "airline",
+      "United",
+      "row 8"
+    ]
+  },
+  {
+    "id": 20,
+    "query": "Where is my bus stop?",
+    "mode": "sequential",
+    "edge_answer": "Your bus is the 747 airport express",
+    "fog_answer": "it stops at bay 3, outside exit C, 70 meters ahead",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "747",
+      "bus",
+      "express",
+      "bay 3",
+      "exit C",
+      "70"
+    ]
+  },
+  {
+    "id": 21,
+    "query": "Where do I collect my rental car?",
+    "mode": "sequential",
+    "edge_answer": "Your rental company is Hertz",
+    "fog_answer": "the Hertz counter is in the parking garage, 200 meters via the skybridge",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "rental company",
+      "Hertz",
+      "200",
+      "Hertz counter",
+      "skybridge"
+    ]
+  },
+  {
+    "id": 22,
+    "query": "Where is my hotel pickup?",
+    "mode": "sequential",
+    "edge_answer": "Your pickup is the Marriott van",
+    "fog_answer": "it waits at door 4 of arrivals, 50 meters to the right",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "pickup",
+      "van",
+      "Marriott",
+      "door 4",
+      "50"
+    ]
+  },
+  {
+    "id": 23,
+    "query": "Where is my boarding area?",
+    "mode": "sequential",
+    "edge_answer": "Your boarding area is zone B",
+    "fog_answer": "it's behind the food court, 110 meters ahead on the left",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "zone B",
+      "110"
+    ]
+  },
+  {
+    "id": 24,
+    "query": "Where is passport control for my flight?",
+    "mode": "sequential",
+    "edge_answer": "Your flight uses the international wing",
+    "fog_answer": "passport control is up the ramp, 90 meters ahead",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "90",
+      "passport control",
+      "ramp"
+    ]
+  },
+  {
+    "id": 25,
+    "query": "Where is my gate?",
+    "mode": "sequential",
+    "edge_answer": "Your gate is B3",
+    "fog_answer": "Gate B3 is in Terminal 2, 180 meters ahead on the right",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "B3",
+      "Terminal 2",
+      "180",
+      "Terminal"
+    ]
+  },
+  {
+    "id": 26,
+    "query": "Where is my gate?",
+    "mode": "sequential",
+    "edge_answer": "Your gate is C11",
+    "fog_answer": "Gate C11 is past the bookstore, 220 meters straight ahead",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "C11",
+      "220"
+    ]
+  },
+  {
+    "id": 27,
+    "query": "Where is my carousel?",
+    "mode": "sequential",
+    "edge_answer": "Your carousel is carousel 7",
+    "fog_answer": "Carousel 7 is at the far end of arrivals, 130 meters ahead",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "carousel 7",
+      "130"
+    ]
+  },
+  {
+    "id": 28,
+    "query": "Where is my platform?",
+    "mode": "sequential",
+    "edge_answer": "Your platform is platform 4",
+    "fog_answer": "Platform 4 is downstairs, 100 meters to the left",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "platform 4",
+      "100"
+    ]
+  },
+  {
+    "id": 29,
+    "query": "Where does my flight leave from?",
+    "mode": "sequential",
+    "edge_answer": "Your flight leaves from gate D20",
+    "fog_answer": "Gate D20 is in Terminal 1, 350 meters via the moving walkway",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "D20",
+      "Terminal 1",
+      "350",
+      "Terminal"
+    ]
+  },
+  {
+    "id": 30,
+    "query": "Where is my counter?",
+    "mode": "sequential",
+    "edge_answer": "Your counter is counter 9",
+    "fog_answer": "Counter 9 is in the departures hall, 45 meters to the right",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "counter 9",
+      "45"
+    ]
+  },
+  {
+    "id": 31,
+    "query": "Is my suitcase near a bench?",
+    "mode": "parallel",
+    "edge_answer": "Your suitcase is a red hardshell",
+    "fog_answer": "a bench is 15 meters to your right",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "suitcase",
+      "hardshell",
+      "15",
+      "bench"
+    ]
+  },
+  {
+    "id": 32,
+    "query": "Is there water near my gate seat?",
+    "mode": "parallel",
+    "edge_answer": "Your seat is by the window at the gate",
+    "fog_answer": "a water fountain is 25 meters to your left",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "seat",
+      "gate",
+      "25",
+      "water fountain"
+    ]
+  },
+  {
+    "id": 33,
+    "query": "Where is my medication and a pharmacy?",
+    "mode": "parallel",
+    "edge_answer": "Your medication is in the front pocket of your backpack",
+    "fog_answer": "a pharmacy is 60 meters ahead on the left",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "medication",
+      "backpack",
+      "60",
+      "pharmacy"
+    ]
+  },
+  {
+    "id": 34,
+    "query": "Where is my boarding pass and the gate desk?",
+    "mode": "parallel",
+    "edge_answer": "Your boarding pass is in your phone wallet",
+    "fog_answer": "the gate desk is 15 meters straight ahead",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "boarding pass",
+      "wallet",
+      "15",
+      "gate desk"
+    ]
+  },
+  {
+    "id": 35,
+    "query": "Where is my wallet and an ATM?",
+    "mode": "parallel",
+    "edge_answer": "Your wallet is in your jacket pocket",
+    "fog_answer": "an ATM is 35 meters to your right",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "wallet",
+      "pocket",
+      "35",
+      "ATM"
+    ]
+  },
+  {
+    "id": 36,
+    "query": "Is there coffee near my gate?",
+    "mode": "parallel",
+    "edge_answer": "Your gate is B6",
+    "fog_answer": "a coffee shop is 30 meters to your left",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "B6",
+      "30",
+      "coffee shop"
+    ]
+  },
+  {
+    "id": 37,
+    "query": "Where can my guide dog go?",
+    "mode": "parallel",
+    "edge_answer": "Your dog is a yellow labrador",
+    "fog_answer": "the pet relief area is 85 meters ahead near exit B",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "dog",
+      "labrador",
+      "exit B",
+      "85"
+    ]
+  },
+  {
+    "id": 38,
+    "query": "Where is my umbrella and the taxi stand?",
+    "mode": "parallel",
+    "edge_answer": "Your umbrella is in the side pocket of your bag",
+    "fog_answer": "the taxi stand is 55 meters outside the main doors",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "umbrella",
+      "bag",
+      "55",
+      "taxi stand",
+      "doors"
+    ]
+  },
+  {
+    "id": 39,
+    "query": "Is there a quiet room near my gate?",
+    "mode": "parallel",
+    "edge_answer": "Your gate is A2",
+    "fog_answer": "a quiet room is 70 meters ahead on the right",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "A2",
+      "70",
+      "quiet room"
+    ]
+  },
+  {
+    "id": 40,
+    "query": "Where are my headphones and a charging spot?",
+    "mode": "parallel",
+    "edge_answer": "Your headphones are in the top pouch",
+    "fog_answer": "a charging station is 20 meters behind you",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "headphones",
+      "pouch",
+      "20",
+      "charging station",
+      "you"
+    ]
+  },
+  {
+    "id": 41,
+    "query": "Where is my passport and the help desk?",
+    "mode": "parallel",
+    "edge_answer": "Your passport is in your inner coat pocket",
+    "fog_answer": "the information desk is 45 meters to your left",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "passport",
+      "pocket",
+      "45",
+      "information desk"
+    ]
+  },
+  {
+    "id": 42,
+    "query": "Is there food near my gate?",
+    "mode": "parallel",
+    "edge_answer": "Your gate is F9",
+    "fog_answer": "a pizza restaurant is 40 meters to your right",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "F9",
+      "40",
+      "pizza restaurant"
+    ]
+  },
+  {
+    "id": 43,
+    "query": "Where is my stroller and the elevator?",
+    "mode": "parallel",
+    "edge_answer": "Your stroller is at the gate check rack",
+    "fog_answer": "the elevator is 30 meters ahead",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "stroller",
+      "rack",
+      "30",
+      "elevator"
+    ]
+  },
+  {
+    "id": 44,
+    "query": "Where is my jacket and a restroom?",
+    "mode": "parallel",
+    "edge_answer": "Your jacket is on seat 21A",
+    "fog_answer": "a restroom is 65 meters ahead on the left",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "21A",
+      "65",
+      "restroom"
+    ]
+  },
+  {
+    "id": 45,
+    "query": "Where is my gate?",
+    "mode": "sequential",
+    "edge_answer": "Your gate is B12",
+    "fog_answer": "the departure board shows your flight at gate B14",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "B12",
+      "B14"
+    ]
+  },
+  {
+    "id": 46,
+    "query": "Where is my gate?",
+    "mode": "sequential",
+    "edge_answer": "Your gate is C4",
+    "fog_answer": "the gate agent announced boarding at gate C6",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "C4",
+      "C6"
+    ]
+  },
+  {
+    "id": 47,
+    "query": "Where do I pick up my bag?",
+    "mode": "sequential",
+    "edge_answer": "Your bag arrives at carousel 3",
+    "fog_answer": "the arrivals screen lists your flight at carousel 5",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "carousel 3",
+      "carousel 5"
+    ]
+  },
+  {
+    "id": 48,
+    "query": "When does my flight board?",
+    "mode": "sequential",
+    "edge_answer": "Your flight boards at 14:20",
+    "fog_answer": "the departure board shows boarding at 14:45",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "14",
+      "20",
+      "45"
+    ]
+  },
+  {
+    "id": 49,
+    "query": "Where is my seat?",
+    "mode": "sequential",
+    "edge_answer": "Your seat is 12A",
+    "fog_answer": "the boarding pass scanner shows seat 14C",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "12A",
+      "14C"
+    ]
+  },
+  {
+    "id": 50,
+    "query": "Where is my platform?",
+    "mode": "sequential",
+    "edge_answer": "Your platform is platform 2",
+    "fog_answer": "the station display shows platform 5 for your train",
+    "edge_failed": false,
+    "fog_failed": false,
+    "must_include": [
+      "platform 2",
+      "platform 5"
+    ]
+  },
+  {
+    "id": 51,
+    "query": "Where is my gate?",
+    "mode": "sequential",
+    "edge_answer": "Your gate is A7",
+    "fog_answer": null,
+    "edge_failed": false,
+    "fog_failed": true,
+    "must_include": [
+      "A7"
+    ]
+  },
+  {
+    "id": 52,
+    "query": "Where is my carousel?",
+    "mode": "sequential",
+    "edge_answer": "Your carousel is carousel 4",
+    "fog_answer": null,
+    "edge_failed": false,
+    "fog_failed": true,
+    "must_include": [
+      "carousel 4"
+    ]
+  },
+  {
+    "id": 53,
+    "query": "Which airline am I flying?",
+    "mode": "sequential",
+    "edge_answer": "Your airline is Lufthansa",
+    "fog_answer": null,
+    "edge_failed": false,
+    "fog_failed": true,
+    "must_include": [
+      "airline",
+      "Lufthansa"
+    ]
+  },
+  {
+    "id": 54,
+    "query": "Where is my seat?",
+    "mode": "sequential",
+    "edge_answer": "Your seat is 22F",
+    "fog_answer": null,
+    "edge_failed": false,
+    "fog_failed": true,
+    "must_include": [
+      "22F"
+    ]
+  },
+  {
+    "id": 55,
+    "query": "Where is the nearest restroom?",
+    "mode": "parallel",
+    "edge_answer": null,
+    "fog_answer": "the restroom is 40 meters ahead on the left",
+    "edge_failed": true,
+    "fog_failed": false,
+    "must_include": [
+      "40",
+      "restroom"
+    ]
+  },
+  {
+    "id": 56,
+    "query": "Where is the taxi stand?",
+    "mode": "parallel",
+    "edge_answer": null,
+    "fog_answer": "the taxi stand is 60 meters outside exit A",
+    "edge_failed": true,
+    "fog_failed": false,
+    "must_include": [
+      "exit A",
+      "60"
+    ]
+  },
+  {
+    "id": 57,
+    "query": "Where can I charge my phone?",
+    "mode": "parallel",
+    "edge_answer": null,
+    "fog_answer": "a charging station is 25 meters to your right",
+    "edge_failed": true,
+    "fog_failed": false,
+    "must_include": [
+      "25",
+      "charging station"
+    ]
+  },
+  {
+    "id": 58,
+    "query": "Where is the escalator?",
+    "mode": "parallel",
+    "edge_answer": null,
+    "fog_answer": "the escalator is 35 meters straight ahead",
+    "edge_failed": true,
+    "fog_failed": false,
+    "must_include": [
+      "35",
+      "escalator"
+    ]
+  },
+  {
+    "id": 59,
+    "query": "Where is my gate?",
+    "mode": "sequential",
+    "edge_answer": null,
+    "fog_answer": null,
+    "edge_failed": true,
+    "fog_failed": true,
+    "must_include": []
+  },
+  {
+    "id": 60,
+    "query": "Where is my bag?",
+    "mode": "parallel",
+    "edge_answer": null,
+    "fog_answer": null,
+    "edge_failed": true,
+    "fog_failed": true,
+    "must_include": []
   }
 ]
