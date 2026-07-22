@@ -78,5 +78,25 @@
     "edge_failed": false,
     "fog_failed": false,
     "must_include": ["airline", "Delta", "row 4"]
+  },
+  {
+    "id": 9,
+    "query": "Where is my gate?",
+    "mode": "sequential",
+    "edge_answer": null,
+    "fog_answer": null,
+    "edge_failed": true,
+    "fog_failed": true,
+    "must_include": []
+  },
+  {
+    "id": 10,
+    "query": "Where is my gate?",
+    "mode": "sequential",
+    "edge_answer": null,
+    "fog_answer": null,
+    "edge_failed": true,
+    "fog_failed": true,
+    "must_include": []
   }
 ]

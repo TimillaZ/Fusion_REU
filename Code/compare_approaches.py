@@ -17,7 +17,7 @@ import time
 # Each name points to a function with the same shape: fuse(edge, fog, mode).
 APPROACHES = {
     "template": fuse,
-    #"llm": llm_fuse,
+    "llm": llm_fuse,
     "graph": graph_fuse,
 }
 
